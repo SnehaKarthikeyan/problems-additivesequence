@@ -1,0 +1,83 @@
+
+
+Question:
+
+You are given a number N and your task is to write a program to find whether the given number contains an additive sequence or not. The additive sequence is a sequence of numbers where the sum of the first two numbers is equal to the third one.
+Note: 
+Numbers in the additive sequence cannot have leading zeros.
+For Example,
+1235 is an additive sequence as 1+2=3, 2+3=5.
+
+Input Description:
+
+The first line contains an integer N (1<=N<=10^20).
+
+Ouput Description:
+
+Print "YES" if the given number contains an additive sequence else print "NO".
+
+Hints:
+
+Add consecutive numbers and check whether the sum of the first two numbers is equal to the third one.
+
+Sample Input:
+
+235813
+
+Sample Output:
+
+YES
+
+Explanation:
+
+In the given number 235813, as 2+3=5, 3+5=8, 5+8=13, hence the it is an additive sequence. So, the output is YES.
+
+Testcase 1:
+
+Input:
+
+66121830
+
+Output:
+
+YES
+
+Testcase 2:
+
+Input:
+
+26122323412112323
+
+Output:
+
+NO
+
+Testcase 3:
+
+Input:
+
+123581321345589144233377
+
+Output:
+
+YES
+
+Testcase 4:
+
+Input:
+
+51123
+
+Output:
+
+NO
+
+Testcase 5:
+
+Input:
+
+314762537811239897769865
+
+Output:
+
+NO
